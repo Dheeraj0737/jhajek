@@ -43,6 +43,40 @@ Homebrew is the MacOS 3rd party package manager located at: [https://brew.sh/](h
 
 If you have a Mac - install `brew` and provide a screenshot of the output of the command: `brew --version`
 
+My work:
+## Step 1: Install Homebrew (MacOS Package Manager)
+**Command used:**  
+```<img width="347" height="58" alt="Screenshot 2025-08-25 at 4 22 08 PM" src="https://github.com/user-attachments/assets/07e48ca9-98b1-408a-86b5-4ebd7055492f" />sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew --version
+<img width="347" height="58" alt="Screenshot 2025-08-25 at 4 22 08 PM" src="https://github.com/user-attachments/assets/faa467bd-b2a8-42d7-a4a8-3330fb7eeb29" />
+
+
+## Part 1: Git Installation
+I installed Git and verified it works.
+<img width="410" height="45" alt="Screenshot 2025-08-25 at 12 10 19 PM" src="https://github.com/user-attachments/assets/02483087-efa5-41f0-ad70-5656d3a451e8" />
+
+
+## Part 2: VS Code
+I installed VS Code successfully.
+<img width="647" height="97" alt="Screenshot 2025-08-25 at 12 15 18 PM" src="https://github.com/user-attachments/assets/dd86a29c-7a6b-4781-acbe-6c62085a7aea" />
+
+## Part 3: Node.js and npm
+Installed Node.js and npm.
+<img width="347" height="72" alt="Screenshot 2025-08-25 at 2 12 52 PM" src="https://github.com/user-attachments/assets/e92f4fa2-f470-4cc8-895a-ee9f90bc993d" />
+<img width="347" height="58" alt="Screenshot 2025-08-25 at 2 14 14 PM" src="https://github.com/user-attachments/assets/c0f673a3-5d0d-4b78-ac81-fca5a1770a78" />
+
+## Part 4: Docker
+Docker is installed and running.
+<img width="647" height="31" alt="Screenshot 2025-08-25 at 12 11 38 PM" src="https://github.com/user-attachments/assets/3d25b7b0-1610-4cd1-af14-3f2552315622" />
+
+
+## Part 5: Pythin
+Python Installed
+<img width="410" height="45" alt="Screenshot 2025-08-25 at 12 10 29 PM" src="https://github.com/user-attachments/assets/7d429de0-bc4c-4b08-b19f-305ee194e2c6" />
+
+
 ### Windows
 
 [WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget/ "webpage for winget") is a command line tool enabling users to discover, install, upgrade, remove and configure applications on Windows 10, Windows 11, and Windows Server 2025 computers. This tool is the client interface to the Windows Package Manager service.
@@ -62,6 +96,7 @@ For MacOS using Homebrew:
 ```bash
 # First install the Hashicorp brew tap (repo)
 brew tap hashicorp/tap
+
 
 brew install --cask powershell ; brew install --cask iterm2 ; brew install git ; brew install --cask visual-studio-code ; brew install virtualbox ; brew install hashicorp/tap/hashicorp-vagrant ; brew install hashicorp/tap/packer ; brew install --cask theiaide
 ```
